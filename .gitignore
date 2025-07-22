@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance folder
+instance/
+
+# Environment variables / Secrets
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Testing / Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Flask specific
+*.log
+*.pot
+*.mo
+
+# Migrations (if using Flask-Migrate / Alembic)
+migrations/
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+# MyPy / Pyre type checker
+.mypy_cache/
+.pyre/
+
+# Profiling data
+.prof
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# __init__.py compiled files
+*.pyo
+
+# Gunicorn log files
+gunicorn.log
